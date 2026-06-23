@@ -19,7 +19,7 @@ app.use(express.json());
 
 // Enable CORS
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: ['http://localhost:5173', 'https://codevector-analytics.pages.dev'],
     methods: ['GET'],
     allowedHeaders: ['Content-Type']
 }));

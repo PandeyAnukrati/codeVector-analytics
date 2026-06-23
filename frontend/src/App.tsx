@@ -46,7 +46,7 @@ const getCategoryStyles = (cat: string) => {
   };
 };
 
-const API_BASE = 'http://localhost:3000/api/products';
+const API_BASE = 'https://codevector-analytics-1.onrender.com/api/products';
 
 // Standalone fetch function — no closures, all values passed in
 async function fetchPage(
